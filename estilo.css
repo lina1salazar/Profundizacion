@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    background-image: url("imagenes/Fondo.jpg");
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenedor-login{
+    background-color: rgba(255,255,255,0.88);
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    width: 100%;
+    max-width: 30rem;
+}
+
+.contenedor-login img {
+    display: block;
+    margin: auto;
+}
+
+.contenedor-login hr{
+    margin: 30px 0;
+}
+
+.contenedor-login h2{
+    font-weight: normal;
+    color: #565656;
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+.contenedor-login p{
+    color: #565656;
+}
+.contenedor-login input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #c4c4c4;
+}
+a{
+    text-decoration: none;
+}
+.link-1{
+    display: block;
+    color: #04adb7;
+    font-size: 9pt;
+    margin-bottom: 10px;
+}
+.link-1:hover{
+    color: #4e5357;
+    text-decoration:underline;
+}
+.boton{
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.boton-1{
+    color: #04adb7;
+    border: 1px solid #04adb7;
+    display:block;
+    text-align: center;
+}
+
+.boton-1:hover{
+    color: white;
+    background-color: #04adb7;
+}
+.boton-2{
+    color: white;
+    background-color: #4e5357;
+    border: 1px solid #303335;
+}
+.boton-2:hover{
+    background-color: #303335;
+    border-color: #4e5357;
+}
