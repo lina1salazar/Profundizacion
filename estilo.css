@@ -7,7 +7,7 @@ main{
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,6 +62,15 @@ a{
     color: #4e5357;
     text-decoration:underline;
 }
+
+.link-2{
+    color: white;
+}
+.link-2:hover{
+    color: #fd7e14;
+    text-decoration:underline;
+}
+
 .boton{
     border-radius: 5px;
     padding: 10px 15px;
@@ -88,4 +97,134 @@ a{
 .boton-2:hover{
     background-color: #303335;
     border-color: #4e5357;
+}
+
+footer {
+    background-color: #4e5357;
+    color: white;
+    padding: 50px;
+}
+
+footer .logo-footer{
+    display: block;
+    margin: 0 auto;
+}
+
+footer section:nth-child(2){
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+footer section:nth-child(2)>div{
+    flex: 1;
+}
+
+footer section:nth-child(2) .redes-sociales{
+    display: flex;
+    align-items: center;
+}
+footer section:nth-child(2) .redes-sociales h4{
+    font-weight: 500;
+    margin: 0;
+}
+
+footer section:nth-child(2) .redes-sociales ul{
+    padding-left: 0;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+footer section:nth-child(2) .redes-sociales ul a{
+    padding: 0 5px;
+}
+footer section:nth-child(2) .redes-sociales ul a img{
+    height: 15px;
+}
+
+footer section:nth-child(2) .notificaciones-judiciales{
+    font-size: 8pt;
+}
+footer section:nth-child(2) .notificaciones-judiciales p{
+    margin: 0;
+}
+footer section:nth-child(2) .notificaciones-judiciales a{
+    word-wrap: break-word;
+}
+
+footer section:nth-child(2) .boton-whatsapp {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid #25D366;
+    border-radius: 30px;
+    transition: all 0.4s ease-in-out;
+    justify-content: center;
+    max-width: 160px;
+    margin-top: 10px;
+}
+
+footer section:nth-child(2) .boton-whatsapp:hover {
+    background-color: #25D366;
+}
+
+footer section:nth-child(2) .boton-whatsapp span {
+    margin-left: 10px;
+    text-align: center;
+    font-size: 8pt;
+}
+
+footer section:nth-child(2) .sedes{
+    display: flex;
+}
+
+footer section:nth-child(2) .sedes>div{
+    flex: 1;
+    padding: 5px;
+}
+
+footer section:nth-child(2) .sedes{
+    font-size: 8pt;
+}
+
+footer section:nth-child(2) .sedes h4{
+    font-size: 10pt;
+    font-weight:500;
+    margin-top: 0;
+}
+
+footer section:nth-child(3) {
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+footer section:nth-child(3) h6 {
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
+footer section:nth-child(3) a {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    footer section:nth-child(2) {
+        flex-direction: column;
+    }
+    footer section:nth-child(2) .sedes{
+        margin-top: 20px;
+    }
+
+    footer section:nth-child(3){
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    footer section:nth-child(3) a {
+        margin-left: 0;
+        margin-top: 5px;
+    }
 }
